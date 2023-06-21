@@ -17,7 +17,7 @@ function App() {
             <h1 className=" text-3xl xl:text-6xl font-semibold tracking-widest text-[#F5EB6D uppercase">Forsyth Okoeguale.</h1>
             {/* <p className="text-2xl leading-7">
               A <span className='text-[#764ABC'>Front-End Developer</span>  <br />
-              and <span className='text-[#F5EB6D'>solutions</span> <span className='text-[#ED8554'>architect </span>
+              and <span className='text-[#F5EB6D'>solutions</span> <span className='text-[#ED8554'>architec </span>
             </p> */}
             <h1 className="tracking-wider ">A Front-End Developer</h1>
           
