@@ -12,7 +12,7 @@ const About = () => {
                 <h1 className="font-semibold text-3xl tracking-wider">About</h1>
                 <p className="border w-[40%] "></p>
                 </div>
-                <p className="text-justify tracking-wider leading-6 font-light text-sm">
+                <p className="text-justif tracking-wider leading-6 font-light text-sm">
                     I'm a highly skilled and experienced front-end developer with a passion for creating visually appealing and user-friendly websites. With [X] years of industry experience, I have a strong command of HTML, CSS, and JavaScript, along with expertise in modern frameworks like React and Vue.js. I am committed to delivering high-quality code, pixel-perfect designs, and seamless user experiences. Let's collaborate to bring your web project to life!
                 </p>
             {/* Skills */}
