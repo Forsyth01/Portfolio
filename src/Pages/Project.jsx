@@ -4,9 +4,12 @@ const Project = () => {
     return (
         <div className='my-20'>
             <div className="">
-                <h1 className="text-xl font-bold leading-6 my-10">
-                    Take a Look at some of my <span className='text-[#ED8554]'> Projects.</span>
-                </h1>
+                <div className="flex items-center gap-5">
+                    <p className="border w-[30%] "></p>
+                    <h1 className="text-3xl font-semibold tracking-wide leading-8 my-10">
+                        Take a Look at some of my <span className='text-[#ED8554]'> Projects.</span>
+                    </h1>
+                </div>
                 <div className="space-y-10">
                     <div className="space-y-4">
                         <div className="bg-[#D9D9D9] h-[384px] w-full rounded-xl"></div>

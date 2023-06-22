@@ -12,7 +12,7 @@ function App() {
     <div className="text-[#D3D0D0] font-light py-5">
       <SideNav />
       <div className="m-auto w-[90%]">
-        <header className="header h-[100vh]">
+        <header className="header h-[85vh]">
           <div className="space-y-2 flex flex-col justify-center h-[80vh] xl:h-[50vh] text-center xl:text-left">
             <h1 className=" text-3xl xl:text-6xl font-semibold tracking-widest text-[#F5EB6D uppercase">Forsyth Okoeguale.</h1>
             {/* <p className="text-2xl leading-7">
@@ -22,7 +22,7 @@ function App() {
             <h1 className="tracking-wider ">A Front-End Developer</h1>
           
             <div className="">
-            <button className="border-b px-4 py-2 hover:rounded border-[#FFFFFF] hover:scale-[104%] hover:border-[#ED8554] text-sm font-semibold">View Project</button>
+              <button className="border-b px-4 py-2 hover:rounded hover:border-[#FFFFFF] hover:scale-[104%] border-[#ED8554] text-sm font-semibold"><h1 className='font-semibold tracking-wider'>View Project</h1></button>
             </div>
           </div>
         </header>
