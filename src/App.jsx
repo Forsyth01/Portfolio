@@ -9,7 +9,7 @@ import Footer from './Components/Footer';
 function App() {
 
   return (
-    <div className="text-[#D3D0D0] font-light py-5">
+    <div className="text-[#D3D0D0] font-light">
       <SideNav />
       <div className="m-auto w-[90%]">
         <header className="header h-[85vh]">
