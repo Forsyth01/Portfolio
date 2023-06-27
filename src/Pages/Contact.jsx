@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
     return (
         <div>
-            <h1 className="text-3xl font-bold leading-8 tracking-wide">
+            <h1 className="text-2xl font-bold leading-8 tracking-wide">
                 Let's discuss on how we <br />
                 can work
                 <span className='text-[#764ABC]'> Together</span> ?

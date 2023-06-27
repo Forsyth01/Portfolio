@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { HiOutlineMenuAlt4, HiOutlineMoon } from "react-icons/hi"
 import { FaMoon, FaGripLines } from "react-icons/fa"
+import { RxCross2 } from "react-icons/rx"
 const SideNav = () => {
     const [open, setOpen] = useState(false)
     const logo = "Dev.io"
@@ -15,8 +16,8 @@ const SideNav = () => {
                 </div>
                 <div className="flex items-center gap-8">
                     {!open && <i className="font-semibold text-2xl hover:cursor-pointer"><HiOutlineMoon /></i>}
-                    {!open && <i className=" text-4xl hover:cursor-pointer" onClick={handleOpen}><FaGripLines /></i>}
-                    {open && <p className=" text-4xl font-semibold hover:cursor-pointer" onClick={handleOpen}>X</p>}
+                    {!open && <i className=" text-4xl hover:cursor-pointer " onClick={handleOpen}><FaGripLines /></i>}
+                    {open && <i className=" text-4xl font-semibold hover:cursor-pointer " onClick={handleOpen}><RxCross2/></i>}
                     {/* <i className="font-semibold text-4xl hover:cursor-pointer"><HiOutlineMenuAlt4/></i> */}
                 </div>
             </div>
